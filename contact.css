@@ -1,0 +1,23 @@
+nav ul {
+    list-style-type: none;  /* Remove bullet points */
+    padding: 0;             /* Remove default padding */
+    margin: 0;              /* Remove default margin */
+    display: flex;          /* Make the list horizontal */
+    justify-content: center; /* Center the navigation menu */
+}
+
+nav li {
+    margin: 0 15px;         /* Spacing between the list items */
+}
+
+nav a {
+    text-decoration: none;  /* Remove underline from links */
+    color: white;
+    padding: 10px 20px;     /* Add some padding inside links */
+    background-color: #333; /* Background color for the links */
+    border-radius: 5px;     /* Slightly round the edges */
+}
+
+nav a:hover {
+    background-color: #575757; /* Change color when hovering */
+}
